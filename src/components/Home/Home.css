@@ -1,0 +1,115 @@
+/* home */
+.intro {
+  display: flex;
+  height: 90vh;
+  margin-top: 6rem;
+}
+
+.intro::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  border-top: 1px solid transparent;
+  border-image: linear-gradient(to right, rgb(0, 0, 0) 20%, transparent 80%);
+  border-image-slice: 1;
+}
+
+
+.i-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 15rem;
+  margin-top: 40px;
+}
+.i-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.i-name > :nth-child(1) {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(2) {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(3) {
+  font-weight: 100;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.i-name > :nth-child(4) {
+  font-weight: 100;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 50px;
+}
+
+i-skills {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+.i-skills ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.i-skills ul li {
+  margin-right: 2.5rem;
+}
+.i-skills ul li:last-child {
+  margin-right: 0;
+}
+.i-right {
+  flex: 1;
+  position: relative;
+  margin-left: 20%;
+}
+
+.github-icon,
+.linkedin-icon,
+.telegram-icon {
+  /* margin-top: 40px */
+  margin-left: 10px;
+  font-size: 30px;
+  color: #333;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.github-icon:hover,
+.linkedin-icon:hover,
+.telegram-icon:hover  {
+  color: #E67E22;
+}
+
+.nomad-img {
+  max-width: 60%;
+  max-height: 60%;
+  display:flex;
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  -webkit-clip-path: circle(50% at 50% 50%);
+
+}
+

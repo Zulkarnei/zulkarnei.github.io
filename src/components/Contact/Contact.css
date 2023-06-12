@@ -1,0 +1,22 @@
+.Contact {
+    text-align: left;
+    padding: 20px;
+    position: fixed;
+    bottom: 10%;
+    left: 20px;
+    right: 0;
+    color: #333;
+  }
+
+  .Contact h6{
+    padding-left: 20px;
+  }
+
+  .Contact a {
+    text-decoration: none;
+  }
+  
+  .Contact a:hover {
+    text-decoration: underline;
+  }
+  

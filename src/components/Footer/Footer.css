@@ -1,0 +1,16 @@
+.Footer {
+    padding: 1rem 0;
+    background-color:rgb(250, 235, 215);
+    font-size: 0.1rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  p {
+    margin: 0;
+  }
+  

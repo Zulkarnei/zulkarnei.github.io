@@ -1,0 +1,45 @@
+/* toggle */
+/* .toggle{
+    display: flex;
+    justify-content:space-between;
+    border: 3px solid #EAF2BB;
+    border-radius: 1rem;
+    position: relative;
+    padding: 2px;
+    cursor: pointer;
+
+}
+.toggle>*{
+    width: 1rem;
+    height: 1rem;
+    color: #EAF2BB;
+}
+.t-button{
+    border-radius: 100%;
+    background: #EAF2BB;
+    position: absolute;
+} */
+
+/* toggle */
+.toggle {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #EAF2BB;
+    border-radius: 1rem;
+    position: relative;
+    padding: 2px;
+    cursor: pointer;
+  }
+  
+  .toggle > * {
+    width: 1rem;
+    height: 1rem;
+    color: #422800;
+  }
+  
+  .t-button {
+    border-radius: 100%;
+    background: #EAF2BB;
+    position: absolute;
+  }
+  
