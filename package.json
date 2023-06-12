@@ -1,7 +1,7 @@
 {
   "name": "todo",
   "version": "0.1.0",
-  "homepage": "https://zulkarnei.github.io/",
+  "homepage": "https://zulkarnei.github.io/main",
   "private": true,
   "dependencies": {
     "@iconscout/react-unicons": "^2.0.2",
